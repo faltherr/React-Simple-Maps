@@ -2,7 +2,6 @@ import React from 'react';
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { scaleLinear } from 'd3-scale'
 
-
 export default function SimpleMap (props) {
   //THis will take in the array of detection rates and create the max color from that
   // ratesArray, targetColor

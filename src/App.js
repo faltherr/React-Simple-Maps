@@ -84,7 +84,7 @@ function App () {
             projection={mapOptions[geoView].projection}
             topoJson={mapOptions[geoView].topoJson}
             data={displayedDataSelector(visibleDate, p, dataStructure1)}
-            targetColor={pathogenColors[p]}  
+            targetColor={pathogenColors[p]}
           />
         </div>
       ))}
